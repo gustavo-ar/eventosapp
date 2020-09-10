@@ -22,8 +22,8 @@
 			<div class="nav-wrapper">
 				<a href="#" class="brand-logo">Evento</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="/eventos" class="waves-effect waves-light btn"><i
-							class="material-icons left">add_circle_outline</i>Lista de evento</a></li>
+					<li><a href="/eventos" class="waves-effect waves-light btn"><em
+							class="material-icons left">add_circle_outline</em>Lista de evento</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -70,8 +70,8 @@
 				<td><span th:text="${convidado.nomeConvidado}"></span></td>
 				<td><span th:text="${convidado.rg}"></span></td>
 				<td><a class="waves-effect waves-light btn-small"
-					th:href="${(#mvc.url('EC#deletarConvidado').arg(0, convidado.rg)).build()}"><i
-						class="material-icons left">delete</i></a></td>
+					th:href="${(#mvc.url('EC#deletarConvidado').arg(0, convidado.rg)).build()}"><em
+						class="material-icons left">delete</em></a></td>
 			</tr>
 		</tbody>
 	</table>
